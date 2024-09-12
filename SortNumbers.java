@@ -8,7 +8,7 @@ public class SortNumbers {
         int num3 = scanner.nextInt();
         int[] numbers = {num1, num2, num3};
         for (int i = 0; i < numbers.length - 1; i++) {
-            for (int j = 0; j < numbers.length - 1 - i; j++) { //-i cause the sec numj going down to i
+            for (int j = 0; j < numbers.length - 1 - i; j++) { 
                 if (numbers[j] < numbers[j + 1]) {
                     int temp = numbers[j];
                     numbers[j] = numbers[j + 1];
